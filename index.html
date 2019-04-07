@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="scripts.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Alarm</title>
+</head>
+<body>
+
+<div class="show-time-container">
+    <div class="show-time"></div>
+</div>
+
+
+<div class="input-container">
+
+    <div class="input-boxes">
+        <input type="number" class="enter-hour" min="0" max="24" placeholder="hours">
+        <input type="number" class="enter-min" min="0" max="59" placeholder="minutes">
+        <button id="set-alarm"> Set Alarm</button>
+    </div>
+    <p id="display-time"></p>
+    <div id="stop-container">
+        <button class="stop"> stop</button>
+    </div>
+    <audio src="alarm.mp3" class="alarm"></audio>
+
+
+</div>
+
+</body>
+</html>
